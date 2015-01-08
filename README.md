@@ -27,3 +27,25 @@ Setup UDM
 Initialize JW6SS with observing all JW players
 
     JW6SS.observeAll();
+
+Example for JW player 6+ using:
+    var playerConfig = {
+        primary: 'html5',
+        controlbar: 'over',
+        file: $("video").attr("src"),
+        image: $("video").attr("poster"),
+        width: "100%",
+        streamsense: {
+            loggingEnabled: false
+        }
+    };
+
+    var playerItem  = jwplayer($("video")).setup(playerConfig);
+
+    // Store player configuration in jwPlayer object (for jw6ss)
+    playerItem.config = playerConfig;
+
+    // Streamsense tracking with jw player plugin jw6ss
+    JW6SS.setupUdm("http://int.sitestat.com/X-company/X-project/s?");
+    JW6SS.observeAll();
+
