@@ -30,7 +30,7 @@ Initialize JW6SS with observing all JW players
 
 Example for JW player 6+ using
 ------------------------------
-
+    ...
     var playerConfig = {
         primary: 'html5',
         controlbar: 'over',
@@ -50,4 +50,5 @@ Example for JW player 6+ using
     // Streamsense tracking with jw player plugin jw6ss
     JW6SS.setupUdm("http://int.sitestat.com/X-company/X-project/s?");
     JW6SS.observeAll();
+    ...
 
