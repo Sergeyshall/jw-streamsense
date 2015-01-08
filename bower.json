@@ -1,5 +1,6 @@
 {
   "name": "JW Stream Sense",
+  "version": "1.0.0",
   "main": ["streamsense.min.js", "jw6ss.js", "README.md"],
   "description": "Unofficial JW player Comscore Stream Sense plugin bower component based on https://github.com/fcingolani/jw6ss",
   "ignore": [
