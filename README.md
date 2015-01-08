@@ -28,7 +28,9 @@ Initialize JW6SS with observing all JW players
 
     JW6SS.observeAll();
 
-Example for JW player 6+ using:
+Example for JW player 6+ using
+------------------------------
+
     var playerConfig = {
         primary: 'html5',
         controlbar: 'over',
